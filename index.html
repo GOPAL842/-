@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hans Reels — Short Video Platform</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">🕊️ <span>Hans Reels</span></div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero container">
+    <div class="hero-left">
+      <h1>Hans Reels — छोटे पलों की बड़ी बातें</h1>
+      <p>मॉडर्न, हल्का और तेज़ शॉर्ट-वीडियो प्लेटफ़ॉर्म — Reels, Stories और Creators के लिए बनाया गया।</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#demo">Demo देखें</a>
+        <a class="btn ghost" href="#features">फीचर्स</a>
+      </div>
+      <ul class="benefits">
+        <li>1080p तक वीडियो अपलोड</li>
+        <li>स्टोरीज़ और फीड</li>
+        <li>क्रिएटर वॉलेट और मनीटाइजेशन</li>
+      </ul>
+    </div>
+
+    <div class="hero-right">
+      <!-- phone mockup with demo feed -->
+      <div class="phone">
+        <div class="phone-screen" id="mini-feed">
+          <!-- JS will populate reels -->
+        </div>
+        <div class="phone-footer">Hans Reels</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="features container">
+    <h2>मुख्य फीचर्स</h2>
+    <div class="grid">
+      <div class="card"><strong>Reels</strong><p>Vertical auto-play videos with like/comment/share.</p></div>
+      <div class="card"><strong>Stories</strong><p>Quick stories at top — image/video snippets.</p></div>
+      <div class="card"><strong>Creators Wallet</strong><p>Ad revenue split & withdrawals.</p></div>
+      <div class="card"><strong>AI Tools (Cloud)</strong><p>HashTag suggestion, background remove (server).</p></div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section id="demo" class="demo container">
+    <h2>Live demo (web) — Reels</h2>
+    <p class="muted">Click video to play/pause. Likes stored locally (demo only).</p>
+
+    <div id="feed" class="feed">
+      <!-- JS will inject sample reels -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <p class="muted">Want to build this full app or convert to APK? Email: <a href="mailto:you@example.com">you@example.com</a></p>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Hans Reels — Made with ❤️</small>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+  </html>
